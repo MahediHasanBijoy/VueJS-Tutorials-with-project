@@ -6,8 +6,7 @@ const app = Vue.createApp({
 					id: 'manuel',
 					name: 'Manuel Lorenz',
 					phone: '0192393949',
-					email: 'manuel@localhost.com'
-				},
+					email: 'manuel@localhost.com'				},
 				{
 					id: 'julie',
 					name: 'Julie Jones',
@@ -18,7 +17,6 @@ const app = Vue.createApp({
 		};
 	},
 
-});
 
 app.component('friend-contact', {
 	template: ` 
@@ -50,4 +48,4 @@ app.component('friend-contact', {
 });
 
 
-app.mount('#app')
+app.mount('#app');
